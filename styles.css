@@ -59,7 +59,7 @@ body {
 
 .surface {
   height: 350px;
-  max-width: var(--surface-maxWidth);
+  width: min(1000px, 100% - 5rem);
 
   display: flex;
   margin-right: 50px;
